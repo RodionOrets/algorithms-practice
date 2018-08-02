@@ -1,31 +1,42 @@
 package com.rodionorets.leetcode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MaxIncreasetoKeepCitySkyline {
 
     public static int maxIncreaseKeepingSkyline(int[][] grid) {
-        int size = grid[0].length;
+        List<Integer> skylineFromLeft = new ArrayList<>();
+        List<Integer> skylineFromTop = new ArrayList<>();
 
-        int[] skylineFromLeft = new int[4];
-        for (int i = 0; i < size; i++) {
-            int maxFromRow = findMaxValue(grid[i]);
-            skylineFromLeft[i] = maxFromRow;
+        int originGridSize = grid.length;
 
-            for (int j = 0; j < size; j++) {
+        for (int i = 0; i < originGridSize; i++) {
+            skylineFromLeft.add(findMaxValue(grid[i]));
+            int[] column = new int[originGridSize];
+            for (int j = 0; j < originGridSize; j++) {
+                column[j] = grid[j][i];
+            }
+            skylineFromTop.add(findMaxValue(column));
+        }
+
+        int heightDifference = 0;
+
+        for (int i = 0; i < originGridSize; i++) {
+            for (int j = 0 ; j < originGridSize; j++) {
 
             }
         }
 
-        int overallHeightDifference = 0;
-
-        return overallHeightDifference;
+        return heightDifference;
     }
 
     private static int findMaxValue(int[] arr) {
         int max = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
+        for (int item : arr) {
+            if (item > max) {
+                max = item;
             }
         }
 
