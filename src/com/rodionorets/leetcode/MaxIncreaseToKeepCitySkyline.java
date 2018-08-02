@@ -3,7 +3,7 @@ package com.rodionorets.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MaxIncreasetoKeepCitySkyline {
+public class MaxIncreaseToKeepCitySkyline {
 
     public static int maxIncreaseKeepingSkyline(int[][] grid) {
         List<Integer> skylineFromLeft = new ArrayList<>();
@@ -21,7 +21,6 @@ public class MaxIncreasetoKeepCitySkyline {
         }
 
         int heightDifference = 0;
-
         for (int i = 0; i < originGridSize; i++) {
             for (int j = 0 ; j < originGridSize; j++) {
 
