@@ -2,13 +2,6 @@ package com.rodionorets.leetcode.trees;
 
 public class SumOfLeftLeaves {
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int x) { val = x; }
-    }
-
     public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) { return 0; }
 

@@ -2,17 +2,7 @@ package com.rodionorets.leetcode.trees;
 
 public class ConvertBstToGreaterTree {
 
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
-    int temp = 0;
+    int temp = 0; // TODO (1): Remove global variable
 
     public TreeNode convertBST(TreeNode root) {
         if (root == null) {
