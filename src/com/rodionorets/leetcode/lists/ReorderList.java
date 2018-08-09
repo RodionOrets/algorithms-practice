@@ -5,12 +5,6 @@ import java.util.List;
 
 public class ReorderList {
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; }
-    }
-
 
     public static void reorderList(ListNode head) {
         List<ListNode> nodes = new ArrayList<>();
