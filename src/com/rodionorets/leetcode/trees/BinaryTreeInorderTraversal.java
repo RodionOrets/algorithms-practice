@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.trees;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.strings;
 
 public class ToLowerCase {
     public static String toLowerCase(String str) {

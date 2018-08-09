@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.arrays;
 
 public class ContainerWithMostWater {
     public static int maxArea(int[] height) {

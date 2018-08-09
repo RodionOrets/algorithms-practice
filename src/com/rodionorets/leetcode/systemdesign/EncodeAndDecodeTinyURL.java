@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.systemdesign;
 
 import java.net.URI;
 import java.net.URISyntaxException;

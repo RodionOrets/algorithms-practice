@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.lists;
 
 public class DesignLinkedList {
 

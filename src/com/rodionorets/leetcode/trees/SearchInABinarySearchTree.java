@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode;
+package com.rodionorets.leetcode.trees;
 
 public class SearchInABinarySearchTree {
 
