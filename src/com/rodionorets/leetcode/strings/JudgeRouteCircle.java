@@ -5,20 +5,19 @@ import java.util.Map;
 
 public class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
-        Map<Character, Integer> movesCounts = new HashMap<>();
-
-        movesCounts.put('U', 0);
-        movesCounts.put('D', 0);
-        movesCounts.put('L', 0);
-        movesCounts.put('R', 0);
+        int verticalDistance = 0;
+        int horizontalDistance = 0;
 
         for (int i = 0; i < moves.length(); i++) {
             char move = moves.charAt(i);
-            Integer moveCount = movesCounts.get(move);
-            moveCount++;
-            movesCounts.put(move, moveCount);
+
+            if (move == 'U') verticalDistance++;
+            if (move == 'D') verticalDistance--;
+
+            if (move == 'R') horizontalDistance++;
+            if (move == 'L') horizontalDistance--;
         }
 
-        return movesCounts.get('U') == movesCounts.get('D') && movesCounts.get('L') == movesCounts.get('R');
+        return verticalDistance == 0 && horizontalDistance == 0;
     }
 }
