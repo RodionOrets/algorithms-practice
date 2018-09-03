@@ -8,7 +8,7 @@ import java.util.Map;
 public class UncommonWordsFromTwoSentences {
     public String[] uncommonFromSentences(String A, String B) {
         Set<String> uncommonFromSentences = new HashSet<>();
-        Map<String, Integer> occurences = new HashMap<>();
+        Map<String, Integer> occurrences = new HashMap<>();
 
         String concatenated = A + " " + B;
 
@@ -17,15 +17,15 @@ public class UncommonWordsFromTwoSentences {
                 uncommonFromSentences.remove(s);
             }
 
-            Integer occurence = occurences.get(s);
+            Integer occurrence = occurrences.get(s);
 
-            if (occurence == null) {
-                occurences.put(s, 1);
+            if (occurrence == null) {
+                occurrences.put(s, 1);
             } else {
-                if (occurence > 1) {
+                if (occurrence > 1) {
                     uncommonFromSentences.remove(s);
                 }
-                occurences.put(s, occurence + 1);
+                occurrences.put(s, occurrence + 1);
             }
         }
 
