@@ -1,5 +1,8 @@
 package com.rodionorets.leetcode.arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FindAllDuplicatesInArray {
     public List<Integer> findDuplicates(int[] nums) {
         boolean[] presentElements = new boolean[nums.length + 1];
