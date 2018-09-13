@@ -21,11 +21,10 @@ public class KeysAndRooms {
 
     private void dfs(List<List<Integer>> rooms, boolean[] visited, int room) {
         List<Integer> keys = rooms.get(room);
-        for (int i = 0; i < keys.size(); i++) {
-            int nextRoom = keys.get(i);
-            if (!visited[nextRoom]) {
-                visited[nextRoom] = true;
-                dfs(rooms, visited, nextRoom);
+        for (Integer key : keys) {
+            if (!visited[key]) {
+                visited[key] = true;
+                dfs(rooms, visited, key);
             }
         }
     }
