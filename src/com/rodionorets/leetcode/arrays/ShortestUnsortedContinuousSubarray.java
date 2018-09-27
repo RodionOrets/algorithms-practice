@@ -20,8 +20,8 @@ public class ShortestUnsortedContinuousSubarray {
             maxFromBegin = Math.max(maxFromBegin, nums[subarrayBegin]);
             minFromEnd = Math.min(minFromEnd, nums[subarrayEnd]);
 
-            if (nums[i] < maxFromBegin) unsortedSubarrayEnd = subarrayBegin;
-            if (nums[length - i - 1] > minFromEnd) unsortedSubarrayBegin = subarrayEnd;
+            if (nums[subarrayBegin] < maxFromBegin) unsortedSubarrayEnd = subarrayBegin;
+            if (nums[subarrayEnd] > minFromEnd) unsortedSubarrayBegin = subarrayEnd;
         }
 
         return unsortedSubarrayEnd - unsortedSubarrayBegin + 1;
