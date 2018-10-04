@@ -1,18 +1,24 @@
 package com.rodionorets.leetcode.arrays;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class FairCandySwap {
-    public int[] fairCandySwap(int[] A, int[] B) {
+    public int[] fairCandySwap(int[] aliceBars, int[] bobBars) {
         int[] swappedCandies = new int[2];
 
-        int aSum = sum(A);
-        int bSum = sum(B);
+        int aliceBarsSum = sum(aliceBars);
+        int bobBarsSum = sum(bobBars);
 
-        for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < B.length; j++) {
-                if ((aSum - A[i] + B[j]) == (bSum - B[j] + A[i])) {
-                    swappedCandies[0] = A[i];
-                    swappedCandies[1] = B[j];
-                }
+        int requiredBarsExchangeAmount = (bobBarsSum - aliceBarsSum) / 2;
+
+        Set<Integer> bobBarsSet = new HashSet<>();
+        for (int bobBar : bobBars) bobBarsSet.add(bobBar);
+
+        for (int aliceBar : aliceBars) {
+            if (bobBarsSet.contains(aliceBar + requiredBarsExchangeAmount)) {
+                swappedCandies[0] = aliceBar;
+                swappedCandies[1] = aliceBar + requiredBarsExchangeAmount;
             }
         }
 
