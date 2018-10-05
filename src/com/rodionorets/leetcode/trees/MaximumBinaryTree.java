@@ -11,41 +11,32 @@ Construct the maximum tree by the given array and output the root node of this t
 * */
 
 public class MaximumBinaryTree {
-
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         return constructMaximumBinaryTree(nums, 0, nums.length - 1);
     }
 
     private TreeNode constructMaximumBinaryTree(int[] nums, int from, int to) {
-        if (from > to) {
-            return null;
-        }
+        if (from > to) return null;
 
-        if (from == to) {
-            return new TreeNode(nums[from]);
-        }
+        int indexOfMaximum = getIndexOfMaximum(nums, from, to);
 
-        int maxElementIndex = findMaxElementIndex(nums, from, to);
+        TreeNode root = new TreeNode(nums[indexOfMaximum]);
 
-        TreeNode root = new TreeNode(nums[maxElementIndex]);
-
-        root.left = constructMaximumBinaryTree(nums, from, maxElementIndex - 1);
-        root.right = constructMaximumBinaryTree(nums, maxElementIndex + 1, to);
+        root.left = constructMaximumBinaryTree(nums, from, indexOfMaximum - 1);
+        root.right = constructMaximumBinaryTree(nums, indexOfMaximum + 1, to);
 
         return root;
     }
 
-    private int findMaxElementIndex(int[] nums, int from, int to) {
-        int maxIndex = from;
-        int max = nums[from];
+    private int getIndexOfMaximum(int[] nums, int from, int to) {
+        int indexOfMaximum = from;
 
         for (int i = from; i <= to; i++) {
-            if (nums[i] > max) {
-                maxIndex = i;
-                max = nums[i];
+            if (nums[i] > nums[indexOfMaximum]) {
+                indexOfMaximum = i;
             }
         }
 
-        return maxIndex;
+        return indexOfMaximum;
     }
 }
