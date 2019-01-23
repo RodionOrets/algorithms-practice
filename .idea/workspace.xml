@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f082e3f2-59e9-4664-98e9-9ac0dd3dbf83" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HashMap.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23562">
+              <caret line="1448" column="9" selection-start-line="1448" selection-start-column="9" selection-end-line="1448" selection-end-column="9" />
+              <folding>
+                <element signature="e#19327#19328#0" expanded="true" />
+                <element signature="e#19410#19411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidAnagram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplaceWords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2907">
+              <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#54492#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteNodeInALinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DeleteNodeInALinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MinCostClimbingStairs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MinCostClimbingStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BestTimeToBuyAndSellStock.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/BestTimeToBuyAndSellStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dfs</find>
+      <find>of</find>
+      <find>charAt</find>
+      <find>sort</find>
+      <find>middle</find>
+      <find>arraycopy</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\rodiono\source\repos\algorithms-practice\src\com\rodionorets\leetcode\</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/FIndLargestValuesInEachTreeRow.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/FindLargestValuesInEachTreeRow.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/AverageOfLevelsInBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/ValidateBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/BinaryTreeLevelOrderTraversal2.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/NaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/NaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/DailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/OptimalDivision.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/ShortestUnsortedContinuousSubarray.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/JudgeRouteCircle.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/GoatLatin.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MonotonicArray.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MissingNumber.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MergeIntervals.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/FindAllDuplicatesInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/PalindromicSubstrings.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/ArithmeticSlices.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/SurfaceAreaOf3dShapes.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/FairCandySwap.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MaxConsecutiveOnes.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/CustomSortString.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MaxIncreaseToKeepCitySkyline.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/UniqueMorseCodeWords.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/sql/BigCountries.sql" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/SortArrayByParity.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/trees/MaximumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/graphs/AllPathsFromSourceToTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/FlippingAnImage.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/ArrayPartitionI.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/numbers/SelfDividingNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TrappingRainWater.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MaxAreaOfIsland.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/SearchInsertPosition.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/UniquePaths.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/ProductOfArrayExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TopKFrequentElements.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MinCostCLimbingStairs.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MinCostClimbingStairs.java" />
+        <option value="$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/BestTimeToBuyAndSellStock.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithms-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.certificates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rodiono\source\repos\algorithms-practice\src\com\rodionorets\leetcode\sql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DesignLinkedList">
+    <configuration name="DesignLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodionorets.leetcode.lists.DesignLinkedList" />
+      <module name="algorithms-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodionorets.leetcode.lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FlippingAnImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodionorets.leetcode.arrays.FlippingAnImage" />
+      <module name="algorithms-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodionorets.leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="JudgeRouteCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodionorets.leetcode.strings.JudgeRouteCircle" />
+      <module name="algorithms-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodionorets.leetcode.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaxStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodionorets.leetcode.systemdesign.MaxStack" />
+      <module name="algorithms-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodionorets.leetcode.systemdesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rodionorets.leetcode.arrays.MergeSortedArrays" />
+      <module name="algorithms-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rodionorets.leetcode.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MergeSortedArrays" />
+      <item itemvalue="Application.JudgeRouteCircle" />
+      <item itemvalue="Application.FlippingAnImage" />
+      <item itemvalue="Application.MaxStack" />
+      <item itemvalue="Application.DesignLinkedList" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DesignLinkedList" />
+        <item itemvalue="Application.MaxStack" />
+        <item itemvalue="Application.FlippingAnImage" />
+        <item itemvalue="Application.JudgeRouteCircle" />
+        <item itemvalue="Application.MergeSortedArrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f082e3f2-59e9-4664-98e9-9ac0dd3dbf83" name="Default" comment="" />
+      <created>1533207718056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533207718056</updated>
+      <workItem from="1533207719606" duration="19722000" />
+      <workItem from="1533537498709" duration="13696000" />
+      <workItem from="1533635176474" duration="4908000" />
+      <workItem from="1533723152898" duration="562000" />
+      <workItem from="1533788713150" duration="2849000" />
+      <workItem from="1534152917139" duration="2110000" />
+      <workItem from="1534920303960" duration="5501000" />
+      <workItem from="1535444654470" duration="5904000" />
+      <workItem from="1535726040800" duration="1887000" />
+      <workItem from="1535969598458" duration="2533000" />
+      <workItem from="1536077130714" duration="2212000" />
+      <workItem from="1536159666119" duration="1590000" />
+      <workItem from="1536579431147" duration="2053000" />
+      <workItem from="1536831305138" duration="2195000" />
+      <workItem from="1537362599560" duration="4773000" />
+      <workItem from="1537859609247" duration="13594000" />
+      <workItem from="1538392842185" duration="63000" />
+      <workItem from="1538493215621" duration="36583000" />
+      <workItem from="1539084734171" duration="596000" />
+      <workItem from="1539674812621" duration="4653000" />
+      <workItem from="1540831243388" duration="365000" />
+      <workItem from="1540889877124" duration="6170000" />
+      <workItem from="1541428615949" duration="12362000" />
+      <workItem from="1542349158912" duration="578000" />
+      <workItem from="1542613596189" duration="638000" />
+      <workItem from="1542702761501" duration="1452000" />
+      <workItem from="1543488809691" duration="2963000" />
+      <workItem from="1543848580941" duration="3000" />
+      <workItem from="1545223459073" duration="3436000" />
+      <workItem from="1545823381572" duration="268000" />
+      <workItem from="1548236683138" duration="238000" />
+    </task>
+    <task id="LOCAL-00065" summary="Add two numbers: done, 40ms runtime, beats 31.38% of Java submissions">
+      <created>1537362878220</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1537362878220</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Find largest value in each tree row: done, 6ms runtime, beats 87.86% of Java submissions">
+      <created>1537421490826</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1537421490827</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Binary tree level order traversal: done, 1ms runtime, beats 90.35% of Java submissions">
+      <created>1537421565591</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1537421565591</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Average of levels in binary tree: done, 5ms runtime, beats 99.84% of Java submissions">
+      <created>1537421642403</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1537421642403</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Validate binary search tree: done, 0ms runtime, beats 100.00% of Java submissions">
+      <created>1537421708739</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1537421708739</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Binary tree level order traversal II: done, 1ms runtime, beats 99.74% of Java submissions">
+      <created>1537421833797</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1537421833797</updated>
+    </task>
+    <task id="LOCAL-00071" summary="N-ary tree level order traversal: done, 7ms runtime, beats 48.08% of Java submissions">
+      <created>1537422008061</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1537422008061</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Daily temperatures: done, 396ms runtime, beats 5.11% of Java submissions">
+      <created>1537423674663</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1537423674663</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Search in rotated sorted array: done, 8ms runtime, beats 98.76% of Java submissions">
+      <created>1537862075701</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1537862075702</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Optimal division: done, 5ms runtime, beats 80.00% of Java submissions">
+      <created>1538044091061</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1538044091061</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Shortest unsorted continuous subarray: done, 19ms runtime, beats 63.72% of Java submissions">
+      <created>1538049174901</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1538049174901</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Shortest unsorted continuous subarray: done, 19ms runtime, beats 63.72% of Java submissions">
+      <created>1538049219366</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1538049219366</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Goat latin: done, 7ms runtime, beats 81.41% of Java submissions">
+      <created>1538124650497</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1538124650498</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Monotonic array: done, 16ms runtime, beats 77.94% of Java submissions">
+      <created>1538376661933</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1538376661933</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Missing number: done, 1ms runtime, beats 70.38% of Java submissions - REFACTOR">
+      <created>1538378622966</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1538378622966</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Merge two sorted lists: done, 8ms runtime, beats 99.97% of Java submissions">
+      <created>1538493283128</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1538493283129</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Merge intervals: done, 57ms runtime, beats 34.13% of Java submissions">
+      <created>1538577641523</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1538577641523</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Find all duplicates in an array: done, 9ms runtime, beats 90.42% of Java submissions">
+      <created>1538578688450</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1538578688450</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Arithmetic slices: done, 1ms runtime, beats 100% of Java submissions">
+      <created>1538643591340</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1538643591340</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Palindromic substrings: done, 9ms runtime, beats 70.42% of Java submissions">
+      <created>1538644013505</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1538644013505</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Arithmetic slices: done, 1ms runtime, beats 100.00% of Java submissions - REFACTOR to O(n)">
+      <created>1538645425672</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1538645425672</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Arithmetic slices: done, 1ms runtime, beats 100.00% of Java submissions - REFACTOR to O(n) runtime &amp; O(1) space">
+      <created>1538645673463</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1538645673463</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Fair candy swap: done, 753ms runtime, beats 3.08% of Java submissions - brute force O(n^2)">
+      <created>1538651417039</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1538651417039</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Fair candy swap: done, 33ms runtime, beats 60.83% of Java submissions">
+      <created>1538652335352</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1538652335353</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Max consecutive ones: done, 8ms runtime, beats 26.63% of Java submissions">
+      <created>1538658761161</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1538658761161</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Max increase to keep city skyline: done, 7ms runtime, beats 99.53% of Java submissions - Revisit, refactor, description add">
+      <created>1538727847774</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1538727847774</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Unique morse code words: done, 5ms runtime, beats 100.00% of Java submissions">
+      <created>1538728469185</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1538728469185</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Big countries: done, 1742ms runtime, beats 80.33% of MySQL submissions">
+      <created>1538728898168</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1538728898168</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Soft array by parity: done, 15ms runtime, beats 69.89% of Java submissions">
+      <created>1538729752403</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1538729752403</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Maximum binary tree: done, 9ms runtime, beats 68.67% of Java submissions">
+      <created>1538736826733</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1538736826733</updated>
+    </task>
+    <task id="LOCAL-00095" summary="All Paths From Source to Target: done, 6ms runtime, beats 71.36% of Java submissions">
+      <created>1538748194534</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1538748194534</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Flipping an image: done, 4ms runtime, beats 100.00% of Java submissions">
+      <created>1538990195448</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1538990195448</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Array partition I: done, 23ms runtime, beats 72.82% of Java submissions">
+      <created>1538991899877</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1538991899877</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Self dividing numbers: done, 4ms runtime, beats 89.72% of Java submissions">
+      <created>1538994056269</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1538994056269</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Container With Most Water: done, 5ms runtime, beats 96.01% of Java submissions">
+      <created>1538999541935</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1538999541936</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Trapping Rain Water: done, 13ms runtime, beats 74.66% of Java submissions">
+      <created>1539002071938</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1539002071939</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Move Zeroes: done, 1ms runtime, beats 100.00% of Java submissions">
+      <created>1539006645894</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1539006645895</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Max Area of Island: done, 21ms runtime, beats 95.45% of Java submissions">
+      <created>1539675085815</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1539675085816</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Search Insert Position: done, 3ms runtime, beats 99.97% of Java submissions">
+      <created>1539782476244</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1539782476244</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Product of array except self: done, 1ms runtime, beats 100.00% of Java submissions">
+      <created>1541052044421</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1541052044422</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Top K Frequent Elements: done, 57ms runtime, beats 22.74% of Java submissions">
+      <created>1541429897525</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1541429897525</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Min Stack: done, 57ms runtime, beats 100.00% of Java submissions">
+      <created>1541510169354</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1541510169355</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Flood Fill and TinyURL remove">
+      <created>1541510191324</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1541510191324</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Max stack: done, N/A ms runtime, beats N/A% of Java submissions">
+      <created>1542214711022</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1542214711023</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Max stack: redundant main() method remove">
+      <created>1542277138636</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1542277138636</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Valid anagram: done, 1ms runtime, beats 100.00% of Java submissions">
+      <created>1543488928466</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1543488928467</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Replace words: done, 20ms runtime, beats 81.39% of Java submissions">
+      <created>1543489064005</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1543489064005</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Best Time To Buy And Sell Stock: done, 1ms runtime, beats 99.89% of Java submissions">
+      <created>1548236865305</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1548236865306</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Min Cost Climbing Stairs: done, 9ms runtime, beats 84.77% of Java submissions">
+      <created>1548236905268</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1548236905268</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="156503000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946146" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32683983" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Max consecutive ones: done, 8ms runtime, beats 26.63% of Java submissions" />
+    <MESSAGE value="Max increase to keep city skyline: done, 7ms runtime, beats 99.53% of Java submissions - Revisit, refactor, description add" />
+    <MESSAGE value="Unique morse code words: done, 5ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Big countries: done, 1742ms runtime, beats 80.33% of MySQL submissions" />
+    <MESSAGE value="Soft array by parity: done, 15ms runtime, beats 69.89% of Java submissions" />
+    <MESSAGE value="Maximum binary tree: done, 9ms runtime, beats 68.67% of Java submissions" />
+    <MESSAGE value="All Paths From Source to Target: done, 6ms runtime, beats 71.36% of Java submissions" />
+    <MESSAGE value="Flipping an image: done, 4ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Array partition I: done, 23ms runtime, beats 72.82% of Java submissions" />
+    <MESSAGE value="Self dividing numbers: done, 4ms runtime, beats 89.72% of Java submissions" />
+    <MESSAGE value="Container With Most Water: done, 5ms runtime, beats 96.01% of Java submissions" />
+    <MESSAGE value="Trapping Rain Water: done, 13ms runtime, beats 74.66% of Java submissions" />
+    <MESSAGE value="Move Zeroes: done, 1ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Max Area of Island: done, 21ms runtime, beats 95.45% of Java submissions" />
+    <MESSAGE value="Search Insert Position: done, 3ms runtime, beats 99.97% of Java submissions" />
+    <MESSAGE value="Product of array except self: done, 1ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Top K Frequent Elements: done, 57ms runtime, beats 22.74% of Java submissions" />
+    <MESSAGE value="Min Stack: done, 57ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Flood Fill and TinyURL remove" />
+    <MESSAGE value="Max stack: done, N/A ms runtime, beats N/A% of Java submissions" />
+    <MESSAGE value="Max stack: redundant main() method remove" />
+    <MESSAGE value="Valid anagram: done, 1ms runtime, beats 100.00% of Java submissions" />
+    <MESSAGE value="Replace words: done, 20ms runtime, beats 81.39% of Java submissions" />
+    <MESSAGE value="Best Time To Buy And Sell Stock: done, 1ms runtime, beats 99.89% of Java submissions" />
+    <MESSAGE value="Min Cost Climbing Stairs: done, 9ms runtime, beats 84.77% of Java submissions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Min Cost Climbing Stairs: done, 9ms runtime, beats 84.77% of Java submissions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="(double)length / 2" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>(double)length / 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>length / 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#53706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23562">
+          <caret line="1448" column="9" selection-start-line="1448" selection-start-column="9" selection-end-line="1448" selection-end-column="9" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#54492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8364">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#53706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24616">
+          <caret line="1448" column="9" selection-start-line="1448" selection-start-column="9" selection-end-line="1448" selection-end-column="9" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#54492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#53706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23562">
+          <caret line="1448" column="9" selection-start-line="1448" selection-start-column="9" selection-end-line="1448" selection-end-column="9" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#54492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7650">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#53706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/TopKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23562">
+          <caret line="1448" column="9" selection-start-line="1448" selection-start-column="9" selection-end-line="1448" selection-end-column="9" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/systemdesign/MaxStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/strings/ReplaceWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="199" column="9" selection-start-line="199" selection-start-column="9" selection-end-line="199" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#54492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DeleteNodeInALinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/lists/DesignLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="129" column="5" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/MinCostClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rodionorets/leetcode/arrays/BestTimeToBuyAndSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithms-practice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -128,21 +128,4 @@ public class DesignLinkedList {
             length--;
         }
     }
-
-
-    public static void main(String[] args) {
-        MyLinkedList list = new MyLinkedList();
-
-        list.addAtHead(0);
-        list.addAtIndex(1, 9);
-        list.addAtIndex(1, 5);
-        list.addAtTail(7);
-        list.addAtHead(1);
-        list.addAtIndex(5, 8);
-        list.addAtIndex(5, 2);
-        list.addAtIndex(3, 0);
-        list.addAtTail(1);
-        list.addAtTail(0);
-        list.deleteAtIndex(6);
-    }
 }
