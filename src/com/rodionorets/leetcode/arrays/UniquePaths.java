@@ -11,19 +11,17 @@ public class UniquePaths {
     * */
 
     public int uniquePaths(int m, int n) {
-        int[][] uniquePaths = new int[m][n];
-        return uniquePaths(m , n, uniquePaths);
-    }
+        int[][] grid = new int[m][n];
 
-    private int uniquePaths(int m, int n, int[][] uniquePaths) {
-        if (m == 1 || n == 1) return 1;
+        for (int r = 0; r < m; r++) grid[r][0] = 1;
+        for (int c = 0; c < n; c++) grid[0][c] = 1;
 
-        if (uniquePaths[m - 1][n - 1] != 0) return uniquePaths[m - 1][n - 1];
+        for (int r = 1; r < m; r++) {
+            for (int c = 1; c < n; c++) {
+                grid[r][c] = grid[r - 1][c] + grid[r][c - 1];
+            }
+        }
 
-        int paths = uniquePaths(m - 1, n, uniquePaths) + uniquePaths(m, n - 1, uniquePaths);
-
-        uniquePaths[m - 1][n - 1] = paths;
-
-        return paths;
+        return grid[m - 1][n - 1];
     }
 }
