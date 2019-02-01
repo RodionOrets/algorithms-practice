@@ -2,14 +2,17 @@ package com.rodionorets.leetcode.arrays;
 
 public class HouseRobber {
     public int rob(int[] nums) {
-        return rob(nums, 0, new int[nums.length]);
-    }
+        if (nums.length == 0) return 0;
 
-    private int rob(int[] nums, int house, int robbed[]) {
-        if (house >= nums.length) return 0;
-        if (robbed[house] > 0) return robbed[house];
-        int rob = Math.max(rob(nums, house + 1, robbed), nums[house] + rob(nums, house + 2, robbed));
-        robbed[house] = rob;
-        return rob;
+        int[] robbed = new int[nums.length + 1];
+
+        robbed[0] = 0;
+        robbed[1] = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            robbed[i + 1] = Math.max(robbed[i], robbed[i - 1] + nums[i]);
+        }
+
+        return robbed[nums.length];
     }
 }
