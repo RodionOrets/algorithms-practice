@@ -2,15 +2,15 @@ package com.rodionorets.leetcode.systemdesign;
 
 public class ImmutableRangeSumQuery {
 
-    private int[] numArray;
-
-    private int[] accumulatedSums;
+    int[] accumulatedSums;
 
     public ImmutableRangeSumQuery(int[] nums) {
         if (nums.length > 0) {
-            numArray = new int[nums.length];
-            System.arraycopy(nums, 0, numArray, 0, nums.length);
-            accumulateSums();
+            accumulatedSums = new int[nums.length];
+            accumulatedSums[0] = nums[0];
+            for (int i = 1; i < accumulatedSums.length; i++) {
+                accumulatedSums[i] = accumulatedSums[i - 1] + nums[i];
+            }
         }
     }
 
@@ -20,11 +20,4 @@ public class ImmutableRangeSumQuery {
         return jSum - iSum;
     }
 
-    private void accumulateSums() {
-        accumulatedSums = new int[numArray.length];
-        accumulatedSums[0] = numArray[0];
-        for (int i = 1; i < accumulatedSums.length; i++) {
-            accumulatedSums[i] = accumulatedSums[i - 1] + numArray[i];
-        }
-    }
 }
