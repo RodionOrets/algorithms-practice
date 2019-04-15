@@ -14,8 +14,4 @@ public class MaximumCommonPrefix {
         }
         return strings.get(0).substring(0, prefixEnd);
     }
-
-    public static void main(String[] args) {
-        System.out.println(new MaximumCommonPrefix().maxCommonPrefix(Arrays.asList("abccd", "abc", "abewewe", "tttt")));
-    }
 }
