@@ -11,26 +11,25 @@ What is the maximum total sum that the height of the buildings can be increased?
 
 public class MaxIncreaseToKeepCitySkyline {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
-        int gridLength = grid.length;
-
-        int[] skylineFromTop = new int[gridLength];
-        int[] skylineFromLeft = new int[gridLength];
-
-        for (int i = 0; i < gridLength; i++) {
-            for (int j = 0; j < gridLength; j++) {
-                skylineFromTop[j] = Math.max(skylineFromTop[j], grid[i][j]);
-                skylineFromLeft[i] = Math.max(skylineFromLeft[i], grid[i][j]);
+        int[] skylineFromTop = new int[grid.length];
+        int[] skylineFromLeft = new int[grid.length];
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                int height = grid[i][j];
+                if (height > skylineFromTop[j]) skylineFromTop[j] = height;
+                if (height > skylineFromLeft[i]) skylineFromLeft[i] = height;
             }
         }
 
-        int heightDifference = 0;
-
-        for (int i = 0; i < gridLength; i++) {
-            for (int j = 0; j < gridLength; j++) {
-                heightDifference += Math.min(skylineFromTop[j], skylineFromLeft[i]) - grid[i][j];
+        int maxIncreaseKeepingSkylineSum = 0;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                int height = grid[i][j];
+                maxIncreaseKeepingSkylineSum +=
+                        Math.min(skylineFromTop[j], skylineFromLeft[i]) - height;
             }
         }
 
-        return heightDifference;
+        return maxIncreaseKeepingSkylineSum;
     }
 }
