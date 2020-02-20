@@ -25,10 +25,6 @@ You can print different paths in any order, but you should keep the order of nod
 
 public class AllPathsFromSourceToTarget {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        return findAllPaths(graph);
-    }
-
-    private List<List<Integer>> findAllPaths(int[][] graph) {
         return findAllPathsFromSourceToTarget(graph, 0, graph.length - 1);
     }
 
