@@ -3,19 +3,22 @@ package com.rodionorets.leetcode.arrays;
 public class RotateArray {
     public void rotate(int[] nums, int k) {
         k = k % nums.length;
-        
-        int[] toTransfer = new int[k];
-        
-        for (int i = nums.length - k, j = 0; i < nums.length; i++, j++) {
-            toTransfer[j] = nums[i];
+        reverse(nums, 0, nums.length - 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length - 1);
+    }
+    
+    private void reverse(int[] nums, int from, int to) {
+        while(from < to) {
+            swap(nums, from, to);
+            from++;
+            to--;
         }
-                
-        for (int i = nums.length - k - 1; i >= 0; i--) {
-            nums[i + k] = nums[i];
-        }
-        
-        for (int i = 0; i < toTransfer.length; i++) {
-            nums[i] = toTransfer[i];
-        }
+    }
+    
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
