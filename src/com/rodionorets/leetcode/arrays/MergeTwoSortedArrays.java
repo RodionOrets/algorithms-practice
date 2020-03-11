@@ -1,10 +1,10 @@
 package com.rodionorets.leetcode.arrays;
 
-class MergeSortedArrays {
+public class MergeTwoSortedArrays {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int first = m - 1;
         int second = n - 1;
-        
+
         for (int i = nums1.length - 1; i >= 0; i--) {
             if (second < 0) break;
             if (first < 0) {
@@ -17,6 +17,6 @@ class MergeSortedArrays {
                 nums1[i] = nums2[second];
                 second--;
             }
-        } 
+        }
     }
 }
