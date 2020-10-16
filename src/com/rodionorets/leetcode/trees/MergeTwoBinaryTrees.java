@@ -9,16 +9,13 @@ Otherwise, the NOT null node will be used as the node of new tree.
 * */
 
 public class MergeTwoBinaryTrees {
-    public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
-        if (t1 == null || t2 == null) {
-            return (t1 == null ? t2 : t1);
+    if (t1 == null || t2 == null) {
+            return t1 == null ? t2 : t1;
         }
-
-        TreeNode node = new TreeNode(t1.val + t2.val);
-
-        node.left = mergeTrees(t1.left,t2.left);
-        node.right = mergeTrees(t1.right,t2.right);
-
-        return node;
-    }
+        
+        return new TreeNode(
+            t1.val + t2.val, 
+            mergeTrees(t1.left, t2.left), 
+            mergeTrees(t1.right, t2.right)
+        );
 }
