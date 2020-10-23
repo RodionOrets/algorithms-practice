@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode.dynamicprogramming;
+package com.rodionorets.leetcode.arrays;
 
 class FindAllNumbersDisappearedInAnArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
