@@ -6,23 +6,17 @@ import java.util.List;
 
 public class BinaryTreeInorderTraversal {
 
-    public List<Integer> inorderTraversalRecursive(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-
-        if (root == null) return list;
-
-        list.addAll(inorderTraversalRecursive(root.left));
-        list.add(root.val);
-        list.addAll(inorderTraversalRecursive(root.right));
-
-        return list;
+    public List<Integer> inorderTraversal(TreeNode root) {
+        return inorderTraversal(root, new ArrayList<Integer>());
     }
-
-    public List<Integer> inorderTraversalIterative(TreeNode node) {
-        List<Integer> list = new ArrayList<>();
-
-
-
-        return list;
+    
+    private List<Integer> inorderTraversal(TreeNode root, List<Integer> traversal) {
+        if (root == null) return traversal;
+        
+        inorderTraversal(root.left, traversal);
+        traversal.add(root.val);
+        inorderTraversal(root.right, traversal);
+        
+        return traversal;
     }
 }
