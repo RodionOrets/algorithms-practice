@@ -9,21 +9,18 @@ Note: You may not slant the container and n is at least 2.
 public class ContainerWithMostWater {
     public int maxArea(int[] heights) {
         int maxArea = 0;
-        int leftPosition = 0;
-        int rightPosition = heights.length - 1;
-        while (leftPosition < rightPosition) {
-            int left = heights[leftPosition];
-            int right = heights[rightPosition];
-            int area = Math.min(left, right) * (rightPosition - leftPosition);
+        int left = 0;
+        int right = heights.length - 1;
+        while (left < right) {
+            int area = Math.min(heights[left], heights[right]) * (right - left);
             maxArea = Math.max(maxArea, area);
-            
-            if (left < right) {
-                leftPosition++;
+            if (heights[left] < heights[right]) {
+                left++;
             } else {
-                rightPosition--;
+                right--;
             }
         }
-        
+
         return maxArea;
     }
 }
