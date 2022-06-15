@@ -6,12 +6,20 @@ import java.util.Set;
 public class LinkedListCycle {
 
     public boolean hasCycle(ListNode head) {
-        Set<ListNode> nodes = new HashSet<>();
-        ListNode iterator = head;
-        while (iterator != null) {
-            if (!nodes.add(iterator)) return true;
-            iterator = iterator.next;
+        if (head == null || head.next == null) {
+            return false;
         }
+
+        ListNode singleStepRunner = head;
+        ListNode doubleStepRunner = head;
+
+        while (singleStepRunner != null && doubleStepRunner != null && doubleStepRunner.next != null) {
+            singleStepRunner = singleStepRunner.next;
+            doubleStepRunner = doubleStepRunner.next.next;
+
+            if (singleStepRunner == doubleStepRunner) return true;
+        }
+
         return false;
     }
 }
