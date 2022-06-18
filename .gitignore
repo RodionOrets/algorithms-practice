@@ -1,5 +1,6 @@
 *.iml
 .idea/
+out/
 target
 !target/generated-sources
 clarifications.txt
