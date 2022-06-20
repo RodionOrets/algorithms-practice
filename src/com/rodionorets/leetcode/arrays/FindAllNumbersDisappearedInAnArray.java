@@ -1,5 +1,8 @@
 package com.rodionorets.leetcode.arrays;
 
+import java.util.List;
+import java.util.ArrayList;
+
 class FindAllNumbersDisappearedInAnArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
