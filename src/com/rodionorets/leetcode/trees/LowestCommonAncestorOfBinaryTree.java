@@ -1,6 +1,6 @@
 package com.rodionorets.leetcode.trees;
 
-public class LowestCommonAncestorOfBinarySearchTree {
+public class LowestCommonAncestorOfBinaryTree {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) return null;
