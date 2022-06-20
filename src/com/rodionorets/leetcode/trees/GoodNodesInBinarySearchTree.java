@@ -15,15 +15,12 @@ public class GoodNodesInBinarySearchTree {
     private int goodNodes(TreeNode root, int maxSoFar) {
         if (root == null) return 0;
 
-        int goodNodeCount = 0;
-        if (root.val >= maxSoFar) {
-            goodNodeCount++;
-        }
+        int goodNodeCount = root.val >= maxSoFar ? 1 : 0;
 
-        int leftGoodNodesCount = goodNodes(root.left, Math.max(root.val, maxSoFar));
-        int rightGoodNodesCount = goodNodes(root.right, Math.max(root.val, maxSoFar));
+        goodNodeCount += goodNodes(root.left, Math.max(root.val, maxSoFar));
+        goodNodeCount += goodNodes(root.right, Math.max(root.val, maxSoFar));
 
-        return goodNodeCount + leftGoodNodesCount + rightGoodNodesCount;
+        return goodNodeCount;
     }
 
 }
