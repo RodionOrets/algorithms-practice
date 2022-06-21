@@ -1,10 +1,11 @@
-package com.rodionorets.leetcode.trees;
+package com.rodionorets.leetcode.trees.basics;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
-public class BinaryTreeInorderTraversal {
+import com.rodionorets.leetcode.trees.TreeNode;
+
+public class RecursiveInorderTraversal {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         return inorderTraversal(root, new ArrayList<Integer>());

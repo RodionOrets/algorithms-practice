@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode.systemdesign;
+package com.rodionorets.leetcode.datastructures;
 
 public class MinStack {
     private int[] stack;
