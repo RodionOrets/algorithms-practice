@@ -3,24 +3,23 @@ package com.rodionorets.leetcode.arrays;
 import java.util.*;
 
 public class TopKFrequentElements {
-    public List<Integer> topKFrequent(int[] nums, int k) {
+    public int[] topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> frequencies = new HashMap<>();
 
-        for (int n : nums) {
-            frequencies.put(n, frequencies.getOrDefault(n, 0) + 1);
+        for (int i = 0; i < nums.length; i++) {
+            frequencies.merge(nums[i], 1, (frequency, one) -> frequency + one);
         }
 
-        PriorityQueue<Map.Entry<Integer, Integer>> frequencyOrdered
-                = new PriorityQueue<>((entry1, entry2) -> Integer.compare(entry2.getValue(), entry1.getValue()));
+        Queue<Integer> frequencyPrioritized
+                = new PriorityQueue<>((item1, item2) -> Integer.compare(frequencies.get(item2), frequencies.get(item1)));
 
-        frequencyOrdered.addAll(frequencies.entrySet());
+        frequencyPrioritized.addAll(frequencies.keySet());
 
-        List<Integer> topFrequentElements = new ArrayList<>();
-
-        for (int i = 0; i < k; i++) {
-            topFrequentElements.add(frequencyOrdered.poll().getKey());
+        int[] topKFrequent = new int[k];
+        for (int i = 0; i < topKFrequent.length; i++) {
+            topKFrequent[i] = frequencyPrioritized.poll();
         }
 
-        return topFrequentElements;
+        return topKFrequent;
     }
 }
