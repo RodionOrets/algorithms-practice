@@ -2,29 +2,29 @@ package com.rodionorets.leetcode.arrays;
 
 public class SearchInRotatedSortedArray {
     public int search(int[] nums, int target) {
-        return searchInRoratedSortedArray(nums, 0, nums.length - 1, target);
+        return search(nums, 0, nums.length - 1, target);
     }
 
-    private int searchInRoratedSortedArray(int[] array, int left, int right, int target) {
-        if (left > right) return -1;
+    private int search(int[] nums, int from, int to, int target) {
+        if (from > to) return -1;
 
-        int middle = (left + right) / 2;
+        int middle = from + (to - from) / 2;
 
-        if (array[left] == target) return left;
-        if (array[right] == target) return right;
-        if (array[middle] == target) return middle;
+        if (nums[from] == target) return from;
+        if (nums[middle] == target) return middle;
+        if (nums[to] == target) return to;
 
-        if (array[left] <= array[middle]) {
-            if (array[left] < target && array[middle] > target) {
-                return searchInRoratedSortedArray(array, left, middle - 1, target);
+        if (nums[from] <= nums[middle]) {
+            if (nums[from] < target && nums[middle] > target) {
+                return search(nums, from, middle - 1, target);
             } else {
-                return searchInRoratedSortedArray(array, middle + 1, right, target);
+                return search(nums, middle + 1, to, target);
             }
         } else {
-            if (array[middle] < target && array[right] > target) {
-                return searchInRoratedSortedArray(array, middle + 1, right, target);
+            if (nums[middle] < target && nums[to] > target) {
+                return search(nums, middle + 1, to, target);
             } else {
-                return searchInRoratedSortedArray(array, left, middle - 1, target);
+                return search(nums, from, middle - 1, target);
             }
         }
     }
