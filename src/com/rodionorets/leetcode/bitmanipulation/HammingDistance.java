@@ -10,20 +10,20 @@ public class HammingDistance {
     public int hammingDistance(int x, int y) {
         int xor = x ^ y;
 
-        String binaryXor = toBinary(xor);
+        String binaryXor = toStringBinary(xor);
 
-        int distance = 0;
+        int hammingDistance = 0;
 
         for (int i = 0; i < binaryXor.length(); i++) {
             if (binaryXor.charAt(i) == '1') {
-                distance++;
+                hammingDistance++;
             }
         }
 
-        return distance;
+        return hammingDistance;
     }
 
-    private String toBinary(int x) {
+    private String toStringBinary(int x) {
         String binary = "";
 
         while (x > 0) {
