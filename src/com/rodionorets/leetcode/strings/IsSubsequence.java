@@ -1,22 +1,20 @@
 package com.rodionorets.leetcode.strings;
 
 public class IsSubsequence {
-    public boolean isSubsequence(String s, String t) {
-        char[] sCharArray = s.toCharArray();
-        char[] tCharArray = t.toCharArray();
+    public boolean isSubsequence(String string, String subsequence) {
+        char[] stringChars = string.toCharArray();
+        char[] subsequenceChars = subsequence.toCharArray();
 
-        int firstRunner = 0;
-        int secondRunner = 0;
+        int stringRunner = 0;
+        int subsequenceRunner = 0;
 
-        while (firstRunner < s.length() && secondRunner < t.length()) {
-            if (sCharArray[firstRunner] == tCharArray[secondRunner]) {
-                firstRunner++;
-                secondRunner++;
-            } else {
-                secondRunner++;
+        while (stringRunner < string.length() && subsequenceRunner < subsequence.length()) {
+            if (stringChars[stringRunner] == subsequenceChars[subsequenceRunner]) {
+                stringRunner++;
             }
+            subsequenceRunner++;
         }
 
-        return firstRunner == s.length();
+        return stringRunner == string.length();
     }
 }
