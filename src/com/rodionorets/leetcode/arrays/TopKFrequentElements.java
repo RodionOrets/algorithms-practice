@@ -1,13 +1,14 @@
 package com.rodionorets.leetcode.arrays;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TopKFrequentElements {
-    public int[] topKFrequent(int[] nums, int k) {
+    public List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> frequencies = new HashMap<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            frequencies.merge(nums[i], 1, (frequency, one) -> frequency + one);
+        for (int num : nums) {
+            frequencies.merge(num, 1, Integer::sum);
         }
 
         Queue<Integer> frequencyPrioritized
@@ -15,11 +16,8 @@ public class TopKFrequentElements {
 
         frequencyPrioritized.addAll(frequencies.keySet());
 
-        int[] topKFrequent = new int[k];
-        for (int i = 0; i < topKFrequent.length; i++) {
-            topKFrequent[i] = frequencyPrioritized.poll();
-        }
-
-        return topKFrequent;
+        return frequencyPrioritized.stream()
+                .limit(k)
+                .collect(Collectors.toList());
     }
 }
