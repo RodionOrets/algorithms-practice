@@ -23,13 +23,14 @@ public class HammingDistance {
         return hammingDistance;
     }
 
-    private String toStringBinary(int x) {
+    private String toStringBinary(int num) {
         String binary = "";
 
-        while (x > 0) {
-            int mod = x % 2;
+        int remainingNum = num;
+        while (remainingNum > 0) {
+            int mod = remainingNum % 2;
             binary = mod + binary;
-            x = x / 2;
+            remainingNum = remainingNum / 2;
         }
 
         return binary;

@@ -4,8 +4,8 @@ public class ReverseString {
     public String reverseString(String s) {
         char[] reversed = new char[s.length()];
 
-        for (int i = s.length() - 1, j = 0; i >= 0 && j < s.length(); i--, j++) {
-            reversed[j] = s.charAt(i);
+        for (int back = s.length() - 1, front = 0; back >= 0 && front < s.length(); back--, front++) {
+            reversed[front] = s.charAt(back);
         }
 
         return String.valueOf(reversed);

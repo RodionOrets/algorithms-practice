@@ -23,7 +23,7 @@ public class SelfDividingNumbers {
         List<Integer> selfDividingNumbers = new ArrayList<>();
 
         for (int number = left; number <= right; number++) {
-            if (isDivisibleByOwnDigits(number)) {
+            if (divisibleByOwnDigits(number)) {
                 selfDividingNumbers.add(number);
             }
         }
@@ -31,19 +31,19 @@ public class SelfDividingNumbers {
         return selfDividingNumbers;
     }
 
-    private boolean isDivisibleByOwnDigits(int number) {
-        int tempNumber = number;
-        while (tempNumber > 1) {
-            if (!isDivisibleByDigit(number, tempNumber % 10)) {
+    private boolean divisibleByOwnDigits(int number) {
+        int remainingNumber = number;
+        while (remainingNumber > 1) {
+            if (!divisibleByDigit(number, remainingNumber % 10)) {
                 return false;
             }
-            tempNumber /= 10;
+            remainingNumber /= 10;
         }
 
         return true;
     }
 
-    private boolean isDivisibleByDigit(int number, int digit) {
+    private boolean divisibleByDigit(int number, int digit) {
         return digit != 0 && number % digit == 0;
     }
 }

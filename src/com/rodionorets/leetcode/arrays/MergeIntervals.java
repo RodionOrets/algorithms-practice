@@ -1,13 +1,12 @@
 package com.rodionorets.leetcode.arrays;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 public class MergeIntervals {
 
-    public class Interval {
+    public static class Interval {
         int start;
         int end;
 

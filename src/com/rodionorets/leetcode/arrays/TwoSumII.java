@@ -10,7 +10,7 @@ public class TwoSumII {
                 return new int[] {low + 1, high + 1};
             } else if (sumCandidate > target) {
                 high--;
-            } else if (sumCandidate < target) {
+            } else {
                 low++;
             }
         }

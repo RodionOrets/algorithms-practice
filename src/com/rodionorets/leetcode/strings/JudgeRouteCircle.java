@@ -1,8 +1,5 @@
 package com.rodionorets.leetcode.strings;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class JudgeRouteCircle {
     public boolean judgeCircle(String moves) {
         int[] hashingArray = new int[26];

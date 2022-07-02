@@ -1,8 +1,5 @@
 package com.rodionorets.leetcode.arrays;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int originRows = nums.length;
@@ -14,7 +11,6 @@ public class ReshapeTheMatrix {
 
         int[][] newMatrix = new int[r][c];
 
-        List<Integer> elements = new ArrayList<>();
         int newMatrixRow = 0;
         int newMatrixColumn = 0;
         for (int i = 0; i < originRows; i++) {

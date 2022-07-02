@@ -25,12 +25,12 @@ You can print different paths in any order, but you should keep the order of nod
 
 public class AllPathsFromSourceToTarget {
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        return findAllPathsFromSourceToTarget(graph, 0, graph.length - 1);
+        return allPathsFromSourceToTarget(graph, 0, graph.length - 1);
     }
 
-    private List<List<Integer>> findAllPathsFromSourceToTarget(int[][] graph, int source, int target) {
-        List<List<Integer>> paths = new ArrayList<>();
+    private List<List<Integer>> allPathsFromSourceToTarget(int[][] graph, int source, int target) {
         List<Integer> initialPath = new ArrayList<>();
+        List<List<Integer>> paths = new ArrayList<>();
         dfs(graph, source, target, initialPath, paths);
         return paths;
     }
@@ -41,8 +41,8 @@ public class AllPathsFromSourceToTarget {
         if (source == target) {
             paths.add(new ArrayList<>(path));
         } else {
-            for (int adjacentVertice : graph[source]) {
-                dfs(graph, adjacentVertice, target, path, paths);
+            for (int vertex : graph[source]) {
+                dfs(graph, vertex, target, path, paths);
             }
         }
 

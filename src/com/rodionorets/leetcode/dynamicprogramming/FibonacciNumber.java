@@ -4,10 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class FibonacciNumber {
-    private Map<Integer, Integer> cachedFib = new HashMap<>();
+    private final Map<Integer, Integer> cachedFib = new HashMap<>();
 
     public int fib(int n) {
-        if (cachedFib.containsKey(n)) return cachedFib.get(n);
+        if (cachedFib.containsKey(n)) {
+            return cachedFib.get(n);
+        }
 
         if (n < 2) return n;
 
