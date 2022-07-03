@@ -2,6 +2,7 @@ package com.rodionorets.leetcode.arrays;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.stream.Collectors;
 
 public class FindKthLargestElement {
 
@@ -9,8 +10,8 @@ public class FindKthLargestElement {
         Queue<Integer> prioritizedByDescending
                 = new PriorityQueue<>((one, another) -> Integer.compare(another, one));
 
-        for (int i = 0; i < nums.length; i++) {
-            prioritizedByDescending.add(nums[i]);
+        for (int num : nums) {
+            prioritizedByDescending.add(num);
         }
 
         int kThLargest = 0;
