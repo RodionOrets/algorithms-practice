@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode.arrays;
+package com.rodionorets.leetcode.arrays.binarysearch.rotatedarray.recursive;
 
 /*
 Given a sorted array and a target value, return the index if the target is found.

@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode.arrays;
+package com.rodionorets.leetcode.arrays.binarysearch.rotatedarray.iterative;
 
 public class FindMinimumInRotatedSortedArray {
 

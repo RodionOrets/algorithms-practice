@@ -1,4 +1,4 @@
-package com.rodionorets.leetcode.arrays;
+package com.rodionorets.leetcode.arrays.binarysearch.rotatedarray.recursive;
 
 public class SearchInRotatedSortedArray {
     public int search(int[] nums, int target) {
